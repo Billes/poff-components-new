@@ -1,6 +1,9 @@
 import '../../index.css'
 
 interface HeadlineProps {
+  /**
+   * Headline text
+   */
   label: string
 }
 

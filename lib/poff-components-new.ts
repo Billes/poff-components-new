@@ -13,6 +13,7 @@ import { SelectMenu } from './components/SelectMenu'
 import { SimpleSelect } from './components/SimpleSelect'
 import { SmallIconButton } from './components/SmallIconButton'
 import { Subtitle } from './components/Subtitle'
+import { Textarea } from './components/Textarea'
 
 export {
   Alert,
@@ -30,4 +31,5 @@ export {
   SimpleSelect,
   SmallIconButton,
   Subtitle,
+  Textarea,
 }

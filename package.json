@@ -1,7 +1,10 @@
 {
   "name": "poff-components-new",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.13.2",
+  "description": "A library of React components for POFF",
+  "author": "Nathanael Björkgård",
+  "license": "MIT",
   "type": "module",
   "main": "./dist/poff-components-new.umd.cjs",
   "module": "./dist/poff-components-new.js",

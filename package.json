@@ -3,6 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "./dist/poff-components-new.umd.cjs",
+  "module": "./dist/poff-components-new.js",
+  "types": "./dist/poff-components-new.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/poff-components-new.js",
+      "require": "./dist/poff-components-new.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,7 +23,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -35,6 +47,8 @@
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.3",
     "typescript": "^5.2.2",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.3",
+    "vite-plugin-lib-inject-css": "^1.3.0"
   }
 }

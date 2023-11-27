@@ -6,5 +6,6 @@ import { Headline } from './components/Headline'
 import { IconButton } from './components/IconButton'
 import { Input } from './components/Input'
 import { Label } from './components/Label'
+import { Modal } from './components/Modal'
 
-export { Alert, Button, ConfirmDialog, DatePicker, Headline, IconButton, Input, Label }
+export { Alert, Button, ConfirmDialog, DatePicker, Headline, IconButton, Input, Label, Modal }

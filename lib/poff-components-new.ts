@@ -9,6 +9,7 @@ import { Label } from './components/Label'
 import { Modal } from './components/Modal'
 import { Paragraph } from './components/Paragraph'
 import { PhoneInput } from './components/PhoneInput'
+import { SelectMenu } from './components/SelectMenu'
 
 export {
   Alert,
@@ -22,4 +23,5 @@ export {
   Modal,
   Paragraph,
   PhoneInput,
+  SelectMenu,
 }

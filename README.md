@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+# POFF-COMPONENTS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Occaecat magna quis duis aliquip voluptate dolor duis sit proident veniam commodo elit amet fugiat. Elit sunt velit Lorem id. Est excepteur consequat voluptate eu nisi anim qui nulla. Aliqua nulla in ipsum tempor.
 
-Currently, two official plugins are available:
+## Commit information
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We are using GitHub workflows to automate storybook building and publishing of new releases.
+As you commit changes to your project, write them down into the [Unreleased] section in CHANGELOG.md. Once a new release is created, unreleased changes are automatically moved under the new version heading.
+Our workflow requires that you stick with the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) convention.
 
-## Expanding the ESLint configuration
+##### Type of changes:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Added**: for new features
+- **Changed**: for changes in existing functionality
+- **Deprecated**: for soon-to-be removed features
+- **Removed**: for now removed features
+- **Fixed**: for any bug fixes
+- **Security**: in case of vulnerabilities.

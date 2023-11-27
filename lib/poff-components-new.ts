@@ -14,6 +14,7 @@ import { SimpleSelect } from './components/SimpleSelect'
 import { SmallIconButton } from './components/SmallIconButton'
 import { Subtitle } from './components/Subtitle'
 import { Textarea } from './components/Textarea'
+import { Toggle } from './components/Toggle'
 
 export {
   Alert,
@@ -32,4 +33,5 @@ export {
   SmallIconButton,
   Subtitle,
   Textarea,
+  Toggle,
 }

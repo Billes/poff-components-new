@@ -5,5 +5,6 @@ import { DatePicker } from './components/DatePicker'
 import { Headline } from './components/Headline'
 import { IconButton } from './components/IconButton'
 import { Input } from './components/Input'
+import { Label } from './components/Label'
 
-export { Alert, Button, ConfirmDialog, DatePicker, Headline, IconButton, Input }
+export { Alert, Button, ConfirmDialog, DatePicker, Headline, IconButton, Input, Label }

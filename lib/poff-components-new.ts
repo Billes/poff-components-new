@@ -10,6 +10,7 @@ import { Modal } from './components/Modal'
 import { Paragraph } from './components/Paragraph'
 import { PhoneInput } from './components/PhoneInput'
 import { SelectMenu } from './components/SelectMenu'
+import { SimpleSelect } from './components/SimpleSelect'
 
 export {
   Alert,
@@ -24,4 +25,5 @@ export {
   Paragraph,
   PhoneInput,
   SelectMenu,
+  SimpleSelect,
 }

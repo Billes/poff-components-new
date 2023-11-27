@@ -14,7 +14,7 @@ const meta: Meta = {
 } satisfies Meta<typeof Modal>
 
 export default meta
-type Story = StoryObj<typeof Modal>
+type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {

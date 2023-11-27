@@ -1,22 +1,22 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Headline } from '../../lib/components/Headline'
+import { Subtitle } from '../../lib/components/Subtitle'
 
 const meta: Meta = {
-  title: 'Text/Headline',
-  component: Headline,
+  title: 'Text/Subtitle',
+  component: Subtitle,
   parameters: {
     backgrounds: { disable: true },
     layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},
-} satisfies Meta<typeof Headline>
+} satisfies Meta<typeof Subtitle>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    label: 'This is a headline',
+    label: 'This is a subtitle',
   },
 }

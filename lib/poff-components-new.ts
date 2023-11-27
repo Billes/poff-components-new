@@ -8,6 +8,7 @@ import { Input } from './components/Input'
 import { Label } from './components/Label'
 import { Modal } from './components/Modal'
 import { Paragraph } from './components/Paragraph'
+import { PhoneInput } from './components/PhoneInput'
 
 export {
   Alert,
@@ -20,4 +21,5 @@ export {
   Label,
   Modal,
   Paragraph,
+  PhoneInput,
 }

@@ -16,9 +16,9 @@ build: {
     copyPublicDir: false,
     lib: {
       // this is the file that exports our components
-      entry: resolve(__dirname, "lib/vite-storybook-library.ts"),
-      name: "ViteStorybookLibrary",
-      fileName: "vite-storybook-library",
+      entry: resolve(__dirname, "lib/poff-components-new.ts"),
+      name: "Poff Components",
+      fileName: "poff-components-new",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

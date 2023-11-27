@@ -12,6 +12,7 @@ import { PhoneInput } from './components/PhoneInput'
 import { SelectMenu } from './components/SelectMenu'
 import { SimpleSelect } from './components/SimpleSelect'
 import { SmallIconButton } from './components/SmallIconButton'
+import { Subtitle } from './components/Subtitle'
 
 export {
   Alert,
@@ -28,4 +29,5 @@ export {
   SelectMenu,
   SimpleSelect,
   SmallIconButton,
+  Subtitle,
 }

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Toggle } from '../../lib/poff-components-new'
+import { Toggle } from '../../lib/components/Toggle'
 
 const meta: Meta = {
   title: 'Form/Toggle',

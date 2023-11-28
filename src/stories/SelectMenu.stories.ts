@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { SelectMenu } from '../../lib/poff-components-new'
+import { SelectMenu } from '../../lib/poff-components'
 
 const meta: Meta = {
   title: 'Form/SelectMenu',

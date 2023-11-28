@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { Modal } from '../../lib/components/Modal'
-import { Headline, Input, Label } from '../../lib/poff-components-new'
+import { Headline, Input, Label } from '../../lib/poff-components'
 
 const meta: Meta = {
   title: 'Overlay/Modal',

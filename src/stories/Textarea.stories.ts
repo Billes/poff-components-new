@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Textarea } from '../../lib/poff-components-new'
+import { Textarea } from '../../lib/components/Textarea'
 
 const meta: Meta = {
   title: 'Form/Textarea',

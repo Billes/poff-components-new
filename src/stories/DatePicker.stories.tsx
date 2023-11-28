@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { useArgs } from '@storybook/preview-api'
-import { DatePicker } from '../../lib/poff-components-new'
+import { DatePicker } from '../../lib/components/DatePicker'
 
 const meta: Meta = {
   title: 'Form/DatePicker',

@@ -1,3 +1,5 @@
+import './index.css'
+
 import { Alert } from './components/Alert'
 import { AlertType } from './components/Alert/alert.types'
 import { Button } from './components/Button'

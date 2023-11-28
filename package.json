@@ -1,18 +1,17 @@
 {
-  "name": "poff-components-new",
-  "private": true,
+  "name": "@billes-tryckeri/poff-components",
   "version": "1.13.2",
   "description": "A library of React components for POFF",
   "author": "Nathanael Björkgård",
   "license": "MIT",
   "type": "module",
-  "main": "./dist/poff-components-new.umd.cjs",
-  "module": "./dist/poff-components-new.js",
-  "types": "./dist/poff-components-new.d.ts",
+  "main": "./dist/poff-components.umd.cjs",
+  "module": "./dist/poff-components.js",
+  "types": "./dist/poff-components.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/poff-components-new.js",
-      "require": "./dist/poff-components-new.umd.cjs"
+      "import": "./dist/poff-components.js",
+      "require": "./dist/poff-components.umd.cjs"
     }
   },
   "files": [

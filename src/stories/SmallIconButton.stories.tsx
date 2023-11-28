@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { MagnifyingGlassIcon, PlusIcon, MinusIcon } from '@heroicons/react/20/solid'
-import { SmallIconButton } from '../../lib/poff-components-new'
+import { SmallIconButton } from '../../lib/components/SmallIconButton'
 import { SmallIconButtonType } from '../../lib/components/SmallIconButton/SmalliconButton.types'
 
 const meta: Meta = {

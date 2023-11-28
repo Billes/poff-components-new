@@ -6,6 +6,7 @@ import { ConfirmDialog } from './components/ConfirmDialog'
 import { DatePicker } from './components/DatePicker'
 import { Headline } from './components/Headline'
 import { IconButton } from './components/IconButton'
+import { IconButtonType } from './components/IconButton/iconButton.types'
 import { Input } from './components/Input'
 import { InputType } from './components/Input/input.types'
 import { Label } from './components/Label'
@@ -29,6 +30,7 @@ export {
   DatePicker,
   Headline,
   IconButton,
+  IconButtonType,
   Input,
   InputType,
   Label,

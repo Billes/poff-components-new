@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { SimpleSelect } from '../../lib/poff-components-new'
+import { SimpleSelect } from '../../lib/components/SimpleSelect'
 
 const meta: Meta = {
   title: 'Form/SimpleSelect',

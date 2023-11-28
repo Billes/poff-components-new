@@ -51,9 +51,9 @@ export const SmallIconButton = ({
         type === SmallIconButtonType.ACCENT
           ? 'bg-fuchsia-300 !text-black focus:ring-fuchsia-300 dark:bg-fuchsia-700 dark:focus:ring-fuchsia-700 dark:!text-white'
           : '',
-        'inline-flex items-center rounded-full border border-transparent p-2 shadow-md disabled:cursor-not-allowed disabled:opacity-50',
+        'inline-flex items-center rounded-full border border-transparent p-0.5 shadow-md focus:outline-none  disabled:cursor-not-allowed disabled:opacity-50',
         'hover:ring-4 hover:ring-white',
-        'focus:outline-none focus:ring-2 focus:ring-sky-600 focus:ring-offset-2',
+        'focus:ring-2 focus:ring-sky-600 focus:ring-offset-2',
         'dark:hover:ring-0 dark:focus:ring-offset-2 dark:focus:ring-offset-slate-900 dark:focus:ring-2 dark:shadow-none',
       )}
       title={title}

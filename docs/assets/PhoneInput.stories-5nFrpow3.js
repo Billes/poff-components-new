@@ -1,4 +1,4 @@
-import{P as w}from"./index-y_dBRi52.js";import"./jsx-runtime-eD_iBAx7.js";import"./index-y4MHPZnw.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./classNames-pTwYsIK_.js";import"./keyboard-kdWbnbsd.js";import"./transition-7SLoD2DB.js";import"./use-controllable-qj6jA3wN.js";const X={title:"Form/PhoneInput",component:w,parameters:{backgrounds:{disable:!0},layout:"centered"},tags:["autodocs"],argTypes:{}},r={args:{id:"phoneInputStandard",name:"phoneInputStandard",defaultCountry:"SE",value:"+4631242727",onChange:j=>{console.log(j)}}},e={args:{...r.args,value:"+2312345612"}},a={args:{...r.args,preferredCountries:["DK","FI","NO","SE"],value:"+46730123456"}},s={args:{...r.args,onlyCountries:["DK","FI","NO","SE"],value:"+46 73 012 34 56"}},o={args:{...r.args}},n={args:{...r.args,value:"+12345"}},t={args:{...r.args,value:"",error:"This field is required"}},u={args:{...r.args,required:!0}},d={args:{...r.args,disabled:!0}},c={args:{...r.args,updatedCountry:"AL"}};var p,m,i;r.parameters={...r.parameters,docs:{...(p=r.parameters)==null?void 0:p.docs,source:{originalSource:`{
+import{P as w}from"./index-y_dBRi52.js";import"./jsx-runtime-eD_iBAx7.js";import"./index-y4MHPZnw.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./classNames-pTwYsIK_.js";import"./keyboard-kdWbnbsd.js";import"./transition-7SLoD2DB.js";import"./use-controllable-qj6jA3wN.js";const X={title:"Form/PhoneInput",component:w,parameters:{backgrounds:{disable:!0}},tags:["autodocs"],argTypes:{}},r={args:{id:"phoneInputStandard",name:"phoneInputStandard",defaultCountry:"SE",value:"+4631242727",onChange:j=>{console.log(j)}}},e={args:{...r.args,value:"+2312345612"}},a={args:{...r.args,preferredCountries:["DK","FI","NO","SE"],value:"+46730123456"}},s={args:{...r.args,onlyCountries:["DK","FI","NO","SE"],value:"+46 73 012 34 56"}},o={args:{...r.args}},n={args:{...r.args,value:"+12345"}},t={args:{...r.args,value:"",error:"This field is required"}},u={args:{...r.args,required:!0}},d={args:{...r.args,disabled:!0}},c={args:{...r.args,updatedCountry:"AL"}};var p,m,i;r.parameters={...r.parameters,docs:{...(p=r.parameters)==null?void 0:p.docs,source:{originalSource:`{
   args: {
     id: 'phoneInputStandard',
     name: 'phoneInputStandard',
@@ -8,12 +8,12 @@ import{P as w}from"./index-y_dBRi52.js";import"./jsx-runtime-eD_iBAx7.js";import
       console.log(inputNumber);
     }
   }
-}`,...(i=(m=r.parameters)==null?void 0:m.docs)==null?void 0:i.source}}};var l,g,f;e.parameters={...e.parameters,docs:{...(l=e.parameters)==null?void 0:l.docs,source:{originalSource:`{
+}`,...(i=(m=r.parameters)==null?void 0:m.docs)==null?void 0:i.source}}};var g,l,f;e.parameters={...e.parameters,docs:{...(g=e.parameters)==null?void 0:g.docs,source:{originalSource:`{
   args: {
     ...Default.args,
     value: '+2312345612'
   }
-}`,...(f=(g=e.parameters)==null?void 0:g.docs)==null?void 0:f.source}}};var S,D,C;a.parameters={...a.parameters,docs:{...(S=a.parameters)==null?void 0:S.docs,source:{originalSource:`{
+}`,...(f=(l=e.parameters)==null?void 0:l.docs)==null?void 0:f.source}}};var S,D,C;a.parameters={...a.parameters,docs:{...(S=a.parameters)==null?void 0:S.docs,source:{originalSource:`{
   args: {
     ...Default.args,
     preferredCountries: ['DK', 'FI', 'NO', 'SE'],

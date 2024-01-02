@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Label - Correct path in Storybook
 - SelectMenu - Full width
+- Storybook parameters
+
+### Security
+
+- Update Storybook
 
 ## 2.0.5 - 2023-12-04
 

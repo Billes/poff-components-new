@@ -8,7 +8,6 @@ const meta: Meta = {
   component: Input,
   parameters: {
     backgrounds: { disable: true },
-    layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},

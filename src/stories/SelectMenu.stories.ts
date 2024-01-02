@@ -6,7 +6,6 @@ const meta: Meta = {
   component: SelectMenu,
   parameters: {
     backgrounds: { disable: true },
-    layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},

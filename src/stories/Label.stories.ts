@@ -6,7 +6,6 @@ const meta: Meta = {
   component: Label,
   parameters: {
     backgrounds: { disable: true },
-    layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},

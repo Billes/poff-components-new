@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Label } from '../../lib/components/Label'
 
 const meta: Meta = {
-  title: 'Text/Label',
+  title: 'Form/Label',
   component: Label,
   parameters: {
     backgrounds: { disable: true },

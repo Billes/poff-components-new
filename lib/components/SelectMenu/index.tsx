@@ -54,7 +54,7 @@ export const SelectMenu = ({
                       : 'border-gray-300 focus:ring-sky-600',
                   )}
                 >
-                  <span className='block truncate font-roboto font-light'>
+                  <span className='block truncate font-roboto font-light w-full'>
                     {selectedValue ? selectedValue.join(separator) : 'Välj...'}
                   </span>
                   <span className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>

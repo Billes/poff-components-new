@@ -7,7 +7,6 @@ const meta: Meta = {
   component: DatePicker,
   parameters: {
     backgrounds: { disable: true },
-    layout: 'centered',
   },
   tags: ['autodocs'],
 } satisfies Meta<typeof DatePicker>

@@ -7,7 +7,6 @@ const meta: Meta = {
   component: Button,
   parameters: {
     backgrounds: { disable: true },
-    layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {

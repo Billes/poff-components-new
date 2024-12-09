@@ -65,7 +65,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@headlessui/tailwindcss": "^0.2.0",
-    "@storybook/preview-api": "^7.6.7",
+    "@storybook/preview-api": "^8.4.7",
     "libphonenumber-js": "^1.10.51",
     "tailwind-merge": "^2.0.0"
   }
